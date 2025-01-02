@@ -1,4 +1,4 @@
-import propTypes from 'prop-types';
+import PropTypes from 'prop-types';
 import defaultProps from 'prop-types';
 
 function Student (props) {
@@ -18,9 +18,9 @@ Student.defaultProps = {
 }
 
 Student.propTypes = {
-    name: propTypes.string,
-    age: propTypes.number,
-    isStudent: propTypes.bool
+    name: PropTypes.string,
+    age: PropTypes.number,
+    isStudent: PropTypes.bool
 }
 
 export default Student;
