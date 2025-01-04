@@ -56,3 +56,24 @@
   margin: 5px;
   width: 50%;
 }
+
+.useStateButton{
+  background-color:  purple;
+  color: white;
+  margin: 5px;
+  padding: 10px;
+  border: none;
+  border-radius: 15px;
+}
+
+.useStateButton:hover{
+  background-color:  orange;
+}
+
+#decreasecount:hover{
+  background-color:  red;
+}
+
+#increasecount:hover{
+  background-color:  green;
+}

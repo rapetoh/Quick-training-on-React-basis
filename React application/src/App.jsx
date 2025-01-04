@@ -6,8 +6,12 @@ import Button from "./Button/Button.jsx";
 import Student from "./Student.jsx";
 import UserGreetings from "./UserGrettings.jsx";
 import Fruits from "./Fruits.jsx";
+import { useState } from "react";
+import UseStateComponent from "./UseStateComponent.jsx";
 
 function App() {
+
+  
 
   const fruits = ['apple', 'banana', 'cherry', 'date', 'xigua', 'yellow watermelon', 'zucchini'];
   const fruits2 = ['apple', 'banana', 'cherry', 'date', 'xigua', 'yellow watermelon', 'zucchini'];
@@ -38,7 +42,9 @@ function App() {
     <Fruits ListToMap={fruits2} category="Second Fruits List"/>
     <Fruits ListToMap={fruits3} category="Third Fruits List"/> */}
 
-<Button></Button>
+{/* <Button></Button> */}
+
+<UseStateComponent></UseStateComponent>
 
     </>
   ); 
