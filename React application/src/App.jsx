@@ -8,10 +8,12 @@ import UserGreetings from "./UserGrettings.jsx";
 import Fruits from "./Fruits.jsx";
 import { useState } from "react";
 import UseStateComponent from "./UseStateComponent.jsx";
+import HandleMyEvents from "./HandleMyEvents.jsx";
+
 
 function App() {
 
-  
+
 
   const fruits = ['apple', 'banana', 'cherry', 'date', 'xigua', 'yellow watermelon', 'zucchini'];
   const fruits2 = ['apple', 'banana', 'cherry', 'date', 'xigua', 'yellow watermelon', 'zucchini'];
@@ -19,36 +21,38 @@ function App() {
 
   return (
     <>
-    {/* <Header />
+      {/* <Header />
     <Food />
     <Footer /> */}
 
-    {/* <Button></Button>
+      {/* <Button></Button>
     <Card />
     <Card />
     <Card />
     <Card />  */}
 
-    {/* <Student name="John" age="27" isStudent = {true}/>
+      {/* <Student name="John" age="27" isStudent = {true}/>
     <Student name="Jessica"/>
     <Student name="Isaac" age={25} isStudent = {false}/> */}
 
-    {/* <UserGreetings isloggedin= {true} username = "Roch"/> */}
+      {/* <UserGreetings isloggedin= {true} username = "Roch"/> */}
 
 
 
 
-    {/* <Fruits ListToMap={fruits} category="First Fruits List"/>
+      {/* <Fruits ListToMap={fruits} category="First Fruits List"/>
     <Fruits ListToMap={fruits2} category="Second Fruits List"/>
     <Fruits ListToMap={fruits3} category="Third Fruits List"/> */}
 
-{/* <Button></Button> */}
+      {/* <Button></Button> */}
 
-<UseStateComponent></UseStateComponent>
+      {/* <UseStateComponent></UseStateComponent> */}
 
+
+      <HandleMyEvents></HandleMyEvents>
     </>
-  ); 
-  
+  );
+
 
 }
 
