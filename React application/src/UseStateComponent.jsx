@@ -20,6 +20,7 @@ function UseStateComponent() {
         // This is a good practice while using UseState hook. It is a way to make sure that the state is updated correctly.
         // It is also a good practice while working with asynchronous code.
         // There is something special about this code. The setCount function take a function as an arguent and the parmaeter of the function is the current value of the state.
+        // The key is just to pass a function to the setCount function and the parameter of the function stands as the current value of the variable state.
         // It is a feature specific to the useState hook.
         // So do not ask yourself how a "c" or --any other annotation given for that parameter-- can directly refer to the current value of the state. It is a feature of the useState hook.
     }

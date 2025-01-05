@@ -10,6 +10,7 @@ import { useState } from "react";
 import UseStateComponent from "./UseStateComponent.jsx";
 import HandleMyEvents from "./HandleMyEvents.jsx";
 import ColorPicker from "./ColorPicker.jsx";
+import UseStateWithAnObject from "./UseStateWithAnObject.jsx";
 
 
 function App() {
@@ -55,8 +56,9 @@ function App() {
 
       {/* <ColorPicker></ColorPicker> */}
 
-      <UseStateComponent></UseStateComponent>
+      {/* <UseStateComponent></UseStateComponent> */}
 
+      <UseStateWithAnObject></UseStateWithAnObject>
     </>
   );
 
