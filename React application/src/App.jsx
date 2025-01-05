@@ -9,6 +9,7 @@ import Fruits from "./Fruits.jsx";
 import { useState } from "react";
 import UseStateComponent from "./UseStateComponent.jsx";
 import HandleMyEvents from "./HandleMyEvents.jsx";
+import ColorPicker from "./ColorPicker.jsx";
 
 
 function App() {
@@ -49,7 +50,13 @@ function App() {
       {/* <UseStateComponent></UseStateComponent> */}
 
 
-      <HandleMyEvents></HandleMyEvents>
+      {/* <HandleMyEvents></HandleMyEvents> */}
+
+
+      {/* <ColorPicker></ColorPicker> */}
+
+      <UseStateComponent></UseStateComponent>
+
     </>
   );
 
