@@ -11,6 +11,7 @@ import UseStateComponent from "./UseStateComponent.jsx";
 import HandleMyEvents from "./HandleMyEvents.jsx";
 import ColorPicker from "./ColorPicker.jsx";
 import UseStateWithAnObject from "./UseStateWithAnObject.jsx";
+import UpdateListInRealTime from "./UpdateListInRealTime.jsx";
 
 
 function App() {
@@ -58,7 +59,9 @@ function App() {
 
       {/* <UseStateComponent></UseStateComponent> */}
 
-      <UseStateWithAnObject></UseStateWithAnObject>
+      {/* <UseStateWithAnObject></UseStateWithAnObject> */}
+
+      <UpdateListInRealTime></UpdateListInRealTime>
     </>
   );
 
