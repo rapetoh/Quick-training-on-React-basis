@@ -61,7 +61,7 @@ function App() {
 
       {/* <UseStateWithAnObject></UseStateWithAnObject> */}
 
-      <UpdateListInRealTime></UpdateListInRealTime>
+      {/* <UpdateListInRealTime></UpdateListInRealTime> */}
     </>
   );
 
