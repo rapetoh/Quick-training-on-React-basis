@@ -22,6 +22,8 @@ function UpdateListOfObject () {
     function addAnObjectToTheList(event){
         event.preventDefault();
         setListOfObject((thePreviousListOfObject) => ([...thePreviousListOfObject, {id: listOfObject.length + 1,name: event.target.name.value, age: event.target.age.value}]));
+        document.getElementsByName("name")[0].value = "";
+        document.getElementsByName("age")[0].value = "";
     }
 
 
@@ -34,7 +36,7 @@ function UpdateListOfObject () {
                     listOfObject.map((myobject,index) => 
                         ( 
                             <li key={index}>
-                                <h1>Object n°{index} in the List</h1>
+                                <h1>Person n°{index + 1} in the List</h1>
                                 <ul>
                                     <li>The name is {myobject.name}</li>
                                     <li>The age of {myobject.name} is {myobject.age} </li>

@@ -13,6 +13,8 @@ import ColorPicker from "./ColorPicker.jsx";
 import UseStateWithAnObject from "./UseStateWithAnObject.jsx";
 import UpdateListInRealTime from "./UpdateListInRealTime.jsx";
 import UpdateListOfObject from "./UpdateListOfObject.jsx";
+import UseEffectHook from "./UseEffectHook.jsx";
+import UseContext from "./UseContext.jsx";
 
 
 function App() {
@@ -64,7 +66,12 @@ function App() {
 
       {/* <UpdateListInRealTime></UpdateListInRealTime> */}
 
-      <UpdateListOfObject></UpdateListOfObject>
+      {/* <UpdateListOfObject></UpdateListOfObject> */}
+
+      {/* <UseEffectHook></UseEffectHook> */}
+
+      <UseContext></UseContext>
+
     </>
   );
 
