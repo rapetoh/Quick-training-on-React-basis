@@ -15,6 +15,7 @@ import UpdateListInRealTime from "./UpdateListInRealTime.jsx";
 import UpdateListOfObject from "./UpdateListOfObject.jsx";
 import UseEffectHook from "./UseEffectHook.jsx";
 import UseContext from "./UseContext.jsx";
+import UseRef from "./UseRef.jsx";
 
 
 function App() {
@@ -70,7 +71,9 @@ function App() {
 
       {/* <UseEffectHook></UseEffectHook> */}
 
-      <UseContext></UseContext>
+      {/* <UseContext></UseContext> */}
+
+      <UseRef></UseRef>
 
     </>
   );
