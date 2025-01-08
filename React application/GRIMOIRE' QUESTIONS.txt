@@ -1,2 +1,0 @@
-1- Why is the call of React hook always done within curly braces ?
-2- Why when declaring useState variables that aim at change, we are using the keyword const ?

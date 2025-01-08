@@ -1,0 +1,27 @@
+1 - Why to start in React when i'm using npm to run my project ?
+    a - You will use Vite (it is the simpler and easier)
+    b - Run the command: npm create vite@latest (instead of the traditional: npx create-react-app  myApp)
+    c - Follow the instructions, choose a name for your app folder, choose a react app to be created
+    d - Once the project is created, you can start it with npm run dev (make sure to go inside the app folder before)
+    e - You can also use npm run build to build your app for production
+
+    f - There is a command that combine the previous steps if you prefer: npm create vite@latest myReactAppName --template react
+
+2 - What is Vite ?
+    Vite is actually a modern build tool that provides a FAST(especially) and optimized development environment for modern web projects.
+
+3 - What to mainly know about the file tree once we create a project in React ?
+    a - Well, inside you react app folder, you'll have "node_modules" folder, "public" folder and "src" folder. Beside will be now, the main HTML file that show your page, the package.json file.
+    b - The "node_modules" folder is where all the dependencies of your project are stored.
+    c - The "public" folder is where you can put static assets that you want to be used
+    d - The "src" folder is where you can put your source code (IT IS THE MAIN FOLDER YOU WILL WORK IN). There is your jsx files and your asset folder for eventual images....
+    e - The "package.json" file is where you can see all the dependencies of your project
+    
+
+4 - Why is the call of React hook always done within curly braces ?
+    React hooks like useState, useEffect, etc., are named exports from the react package. When importing named exports in JavaScript, you use curly braces {}.
+    In the other hand, React components that you create are typically exported as default exports. When importing default exports, you do not use curly braces.
+
+
+5 - Why when declaring useState variables that are intended to change, do we use the const keyword?
+    Because those values never change unless a re-render in triggered.
