@@ -18,7 +18,7 @@ Just a wrap up of core concepts
     - ReactDOM to render the component in the DOM or in other words, create DOM elements 
     - Babel
 
-2- The way works globally is that you React to create React element (a function that return HTML stuffs) and those elements are assigned to a div or just converted into DOM elements using ReactDOM to get displayed. 
+2- The way React works in general, is that: you create a React element (a function that return HTML stuffs) and those elements are assigned to a div or just converted into DOM elements using ReactDOM to get displayed.
 
 3- We can write React code 2 different ways:
     - JSX (it is not a valid Javscript syntax): once written in JSX, the React then need to be converted in a understandable version for browser. That is when Babel comes
